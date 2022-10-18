@@ -54,4 +54,5 @@ a {
 
 * {
   box-sizing: border-box;
+  transition-duration: .3s;
 }

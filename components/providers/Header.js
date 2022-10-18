@@ -5,6 +5,7 @@ import {
     PlayIcon,
   } from '@heroicons/react/24/outline'
   import Image from 'next/image'
+import Link from 'next/link'
   import React from 'react'
   
   const callsToAction = [
@@ -19,10 +20,10 @@ import {
           <div className="px-4 mx-auto max-w-7xl sm:px-6">
             <div className="flex items-center justify-between py-6 md:justify-start ">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <a href="#">
-                  <span className="sr-only">Apex Longevity</span>
+                <Link href="/">
+                  {/* <span className="sr-only">Apex Longevity</span> */}
                   <Image
-                    className="w-auto h-8 sm:h-10"
+                    className="w-auto h-8 sm:h-10 cursor-pointer"
                     src='/navlogo.png'
                     alt=""
                     height={65}
@@ -30,7 +31,7 @@ import {
                     priority='true'
                   />
                   {/* <span className="w-auto h-8 sm:h-10 text-{#4f46e5}"></span> */}
-                </a>
+                </Link>
               </div>
               
               <div className='flex justify-center gap-8 flex-nowrap sm:ml-24 lg:ml-0 lg:gap-24 lg:w-1/3'>
