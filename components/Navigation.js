@@ -25,6 +25,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const Patients = [
+    {
+      name: 'About Apex',
+      description: 'Learn about Apex Longevity and how it can help you receive the affordable care your family deserves.',
+      href: '/patients/About',
+      icon: CursorArrowRaysIcon,
+    },
   {
     name: 'Join Apex',
     description: 'Get started today and receive the affordable chiropractic care your entire family will benefit from.',
@@ -36,12 +42,6 @@ const Patients = [
     description: 'View a list of the nearest in-network chiropractic providers to you.',
     href: '/patients/FindAProvider',
     icon: MapPinIcon,
-  },
-  {
-    name: 'About',
-    description: 'Learn about Apex Longevity and how it can help you receive the affordable care your family deserves.',
-    href: '/patients/About',
-    icon: CursorArrowRaysIcon,
   },
   { name: 'FAQs', description: "Our answers to your most frequently asked questions.", href: '#', icon: QuestionMarkCircleIcon },
   {

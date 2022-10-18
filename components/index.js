@@ -16,3 +16,8 @@ export { default as SuccessMessage } from './providers/SuccessMessage';
 export { default as MainContactUs } from './home/MainContactUs';
 export { default as SelectRole } from './home/SelectRole';
 export { default as HomeHeader } from './home/HomeHeader';
+
+// PATIENTS FOLDER
+export { default as PatientHeader } from './patients/PatientHeader';
+export { default as PatientBenefits } from './patients/PatientBenefits';
+export { default as PatientPricing } from './patients/PatientPricing';
