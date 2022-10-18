@@ -2,7 +2,7 @@ import React from "react"
 
 export default function TrustedBy() {
     return (
-      <div className="pt-12 bg-gray-50 sm:pt-16">
+      <div className="md:pt-0 md:mb-16 bg-gray-50 sm:pt-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -24,7 +24,7 @@ export default function TrustedBy() {
                     <dd className="order-1 text-5xl font-bold tracking-tight text-apexB">48</dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
-                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Patients</dt>
+                    <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Family Plans</dt>
                     <dd className="order-1 text-5xl font-bold tracking-tight text-apexB">40,000+</dd>
                   </div>
                   {/* <div className="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">

@@ -2,18 +2,18 @@ import { CheckIcon } from '@heroicons/react/24/outline'
 import React from "react"
 
 const features = [
-  'Step 1: Submit New Provider application',
-  'Step 2: Complete the Apex training video series',
-  'Step 3: Set up and submit your unique Apex fee schedule',
-  'Step 4: Create & access your Provider account',
-  'Step 5: Receive your Welcome Kit',
-  
+  'Step 1: Submit the email form below or call +1 (877) 712-2739',
+  'Step 2: Receive, complete, and submit the New Provider application',
+  'Step 3: Complete the Apex training video series',
+  'Step 4: Submit your unique Apex fee schedule',
+  'Step 5: Create & access your Provider account',
+  'Step 6: Receive your Welcome Kit',
 ]
 
 export default function How() {
   return (
-    <div className="bg-white">
-      <div className="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
+    <div className="bg-white" id='GetStarted'>
+      <div className="px-4 md:py-8 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
         <div className="pb-16 xl:flex xl:items-center xl:justify-between">
           <div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
@@ -29,7 +29,7 @@ export default function How() {
           </div>
           <a
             href="#ContactUs"
-            className="inline-flex items-center justify-center w-auto px-5 py-3 mt-8 text-base font-medium text-white duration-300 border border-transparent rounded-md bg-apexB hover:bg-apexG sm:mt-10 sm:w-auto xl:mt-0"
+            className="inline-flex lg:hidden items-center justify-center w-auto px-5 py-3 mt-8 text-base font-medium text-white duration-300 border border-transparent rounded-md bg-apexB hover:bg-apexG sm:mt-10 sm:w-auto xl:mt-0 "
           >
             Get started today
           </a>

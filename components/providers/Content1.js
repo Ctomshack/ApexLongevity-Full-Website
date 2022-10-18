@@ -82,7 +82,7 @@ export default function Content1() {
             </svg>
           </div>
         </div>
-        <div className="relative px-4 py-12 sm:px-6 lg:px-8">
+        <div className="relative px-4 sm:px-6 lg:px-8">
           <div className="mx-auto text-lg max-w-prose">
             <h1>
               {/* <span className="block text-lg font-semibold text-center text-indigo-600">Introducing</span> */}

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { HomeHeader } from "../components";
+import { HomeHeader, MainContactUs, Navigation, TrustedBy } from "../components";
 import SelectRole from "../components/home/SelectRole";
 // import Benefits1 from "../components/providers/Benefits1";
 // import Benefits2 from "../components/providers/Benefits2";
@@ -26,6 +26,8 @@ export default function Home() {
       <div>
         <HomeHeader />
         {/* <SelectRole /> */}
+        {/* <TrustedBy /> */}
+        {/* <MainContactUs /> */}
         <Footer />
       </div>
 
