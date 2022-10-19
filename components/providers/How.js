@@ -48,12 +48,12 @@ export default function How() {
                 featureIdx === 0 ? (
                   <li key={feature} className="flex py-4 md:py-0 md:pb-4">
                     <CheckIcon className="flex-shrink-0 w-6 h-6 text-apexG" aria-hidden="true" />
-                    <span className="ml-3 text-base text-gray-500">{feature}</span>
+                    <span className="ml-3 text-base text-gray-800">{feature}</span>
                   </li>
                 ) : (
                   <li key={feature} className="flex py-4">
                     <CheckIcon className="flex-shrink-0 w-6 h-6 text-apexG" aria-hidden="true" />
-                    <span className="ml-3 text-base text-gray-500">{feature}</span>
+                    <span className="ml-3 text-base text-gray-800">{feature}</span>
                   </li>
                 )
               )}
