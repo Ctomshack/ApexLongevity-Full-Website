@@ -283,7 +283,7 @@ export default function Navigation() {
             </a>
             </Link>
             <a
-              href="#"
+              href="https://app.apexlongevity.com/login"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-apexB px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-apexG"
             >
                 <LockClosedIcon
