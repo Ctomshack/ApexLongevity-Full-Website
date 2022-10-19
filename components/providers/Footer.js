@@ -93,7 +93,7 @@ export default function Footer() {
                   />
                 </Link>
             <p className="text-base text-gray-400">
-              Empowering patients to receive the continued care they deserve while keeping chiropractors compliant and safe.
+              Empowering patients to receive the continued care they need while keeping chiropractors compliant and safe.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
