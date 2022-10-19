@@ -77,7 +77,7 @@ export default function ProviderFAQs() {
     <>
     <Navigation />
     <div className="bg-gray-50">
-      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-12">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900">Frequently asked questions</h2>
         <p className="mt-4 text-base text-gray-500 ">
            {`If you can't find what you're
@@ -90,14 +90,28 @@ export default function ProviderFAQs() {
             with your enquiry.
           </p>
         <div className="mt-8 divide-y divide-gray-200">
-          <dl className="divide-y">
-            {faqs.map((faq, idx) => (
-              <div key={faq.idx} className="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
-                <dt className="text-base font-medium text-gray-900 md:col-span-5">{faq.question}</dt>
-                <dd className="mt-2 md:col-span-7 md:mt-0">
-                  <p className="text-base text-gray-500">{faq.answer}</p>
-                </dd>
-              </div>
+        <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+            {faqs.map((faq) => (
+              <Disclosure as="div" key={faq.question} className="pt-6">
+                {({ open }) => (
+                  <>
+                    <dt className="text-lg">
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400">
+                        <span className="font-medium text-gray-900">{faq.question}</span>
+                        <span className="ml-6 flex h-7 items-center">
+                          <ChevronDownIcon
+                            className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
+                            aria-hidden="true"
+                          />
+                        </span>
+                      </Disclosure.Button>
+                    </dt>
+                    <Disclosure.Panel as="dd" className="mt-4 pr-12">
+                      <p className="text-base text-gray-500">{faq.answer}</p>
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
             ))}
           </dl>
         </div>

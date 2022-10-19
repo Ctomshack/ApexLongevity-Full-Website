@@ -18,7 +18,7 @@ export default function PatientPricing() {
       }
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100" id='GetStarted'>
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">

@@ -23,6 +23,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import Image from 'next/image'
+import NavBanner from './NavBanner'
 
 const Patients = [
     {
@@ -101,6 +102,8 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
+    <>
+    <NavBanner />
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-blue-100 py-6 md:justify-start md:space-x-10">
@@ -359,5 +362,6 @@ export default function Navigation() {
         </Popover.Panel>
       </Transition>
     </Popover>
+    </>
   )
 }

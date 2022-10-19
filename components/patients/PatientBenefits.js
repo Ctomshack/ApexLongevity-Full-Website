@@ -29,7 +29,7 @@ const features = [
 
 export default function PatientBenefits() {
   return (
-    <div className="bg-white py-12" id='GetStarted'>
+    <div className="bg-white py-12" id='LearnMore'>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg font-semibold text-apexB">What is Apex Longevity?</h2>
