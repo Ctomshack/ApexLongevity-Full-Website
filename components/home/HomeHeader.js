@@ -123,11 +123,11 @@ export default function HomeHeader() {
                 Apex Longevity is the trusted discount medical plan for
                 chiropractic providers and patients nationwide
               </p> */}
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl drop-shadow-lg">
                 <span className="block xl:inline">Help us help you</span>{" "}
                 {/* <span className="block text-white xl:inline">help you </span> */}
               </h1>
-              <p className="mx-auto mt-3 max-w-md text-base text-gray-300 sm:text-lg md:mt-8 pt-4 md:max-w-2xl sm:max-w-xl md:text-xl">
+              <p className="mx-auto mt-3 max-w-md text-base text-gray-300 sm:text-lg md:mt-8 pt-4 md:max-w-2xl sm:max-w-xl md:text-xl drop-shadow-md">
                 Please select one of the option below to ensure you receive the right information about Apex Longevity 
               </p>
             </div>
