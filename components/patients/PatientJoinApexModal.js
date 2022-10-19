@@ -1,6 +1,6 @@
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
+import { ShieldCheckIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
 export default function PatientJoinApexModal({ visible, onClose }) {
@@ -41,23 +41,23 @@ export default function PatientJoinApexModal({ visible, onClose }) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
                 <div>
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-red-100">
-                    <ExclamationTriangleIcon className="h-6 w-6 text-red-500" aria-hidden="true" />
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
+                    <ShieldCheckIcon className="h-6 w-6 text-apexG" aria-hidden="true" />
                   </div>
-                  <div className="mt-3 text-center sm:mt-5">
-                    <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                      Please Contact Your Nearest Provider
+                  <div className="mt-3 text-center sm:mt-6">
+                    <Dialog.Title as="h3" className="text-3xl font-medium leading-6 text-gray-900">
+                      Start Saving Today!
                     </Dialog.Title>
-                    <div className="mt-2">
-                      <p className="text-sm text-gray-500">
-                        The security of your membership plan is our upmost concern. Please contact or visit your nearest provider to be enrolled into Apex Longevity under their provider policy.
+                    <div className="mt-6">
+                      <p className="text-md text-gray-500">
+                        {`To join, simply complete a membership application in your provider's (chiropractor's) office. Please click the button below to Find a Provider nearest you.`}
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="mt-5 sm:mt-6 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3">
+                <div className="mt-5 sm:mt-8 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3">
                   <Link href='/patients/FindAProvider'>
                   <button
                     type="button"
