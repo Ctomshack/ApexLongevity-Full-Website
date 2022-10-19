@@ -50,6 +50,7 @@ import Link from 'next/link'
             alt='Apex Longevity Header Image' 
             layout='fill'
             objectFit='cover'
+            priority='true'
             />
           </div>
         </main>
