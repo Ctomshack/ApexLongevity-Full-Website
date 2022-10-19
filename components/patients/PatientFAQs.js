@@ -72,7 +72,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function ProviderFAQs() {
+export default function PatientFAQs() {
   return (
     <>
     <Navigation />

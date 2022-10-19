@@ -1,5 +1,8 @@
+// BASE COMPONENTS
+export { default as ErrorPage } from './ErrorPage';
 export { default as Navigation } from './Navigation';
 
+// PROVIDER FOLDER COMPONENTS
 export { default as Benefits1 } from './providers/Benefits1';
 export { default as Benefits2 } from './providers/Benefits2';
 export { default as Benefits3 } from './providers/Benefits3';
@@ -13,13 +16,14 @@ export { default as How } from './providers/How';
 export { default as TrustedBy } from './providers/TrustedBy';
 export { default as SuccessMessage } from './providers/SuccessMessage';
 
+// HOME FOLDER COMPONENTS
 export { default as MainContactUs } from './home/MainContactUs';
 export { default as SelectRole } from './home/SelectRole';
 export { default as HomeHeader } from './home/HomeHeader';
 
-// PATIENTS FOLDER
+// PATIENTS FOLDER COMPONENTS
 export { default as PatientHeader } from './patients/PatientHeader';
 export { default as PatientBenefits } from './patients/PatientBenefits';
 export { default as PatientPricing } from './patients/PatientPricing';
-
-export { default as ErrorPage } from './ErrorPage';
+export { default as PatientJoinApexModal } from './patients/PatientJoinApexModal';
+export { default as PatientFAQs } from './patients/PatientFAQs';

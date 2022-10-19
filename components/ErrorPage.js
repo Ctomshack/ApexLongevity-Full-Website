@@ -6,8 +6,8 @@ import Navigation from './Navigation'
 import Footer from './providers/Footer'
 
 const links = [
-  { title: 'Patients', description: 'Learn how Apex Longevity can help you receive the affordable care your family needs.', icon: UsersIcon },
-  { title: 'Providers', description: 'The most compliant way to offer cash discounts to your patients.', icon: Bars4Icon },
+  { title: 'Patients', description: 'Learn how Apex Longevity can help you receive the affordable care your family needs.', href: '/patients/About', icon: UsersIcon },
+  { title: 'Providers', description: 'The most compliant way to offer cash discounts to your patients.', href: '/providers/About', icon: Bars4Icon },
 ]
 
 export default function ErrorPage() {
@@ -27,12 +27,13 @@ export default function ErrorPage() {
             <h2 className="text-base font-semibold text-gray-500">Popular pages</h2>
             <ul role="list" className="mt-4 divide-y divide-gray-200 border-t border-b border-gray-200">
               {links.map((link, linkIdx) => (
-                <li key={linkIdx} className="relative flex items-start space-x-4 py-6">
-                  <div className="flex-shrink-0">
+                <li key={linkIdx} className="relative flex items-start space-x-4 py-6 hover:bg-gray-50">
+                  <div className="flex-shrink-0 ">
                     <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-50">
                       <link.icon className="h-6 w-6 text-apexB" aria-hidden="true" />
                     </span>
                   </div>
+                  <Link href={link.href}>
                   <div className="min-w-0 flex-1">
                     <h3 className="text-base font-medium text-gray-900">
                       <span className="rounded-sm focus-within:ring-2 focus-within:ring-apexB focus-within:ring-offset-2">
@@ -44,18 +45,21 @@ export default function ErrorPage() {
                     </h3>
                     <p className="text-base text-gray-500">{link.description}</p>
                   </div>
+                  </Link>
                   <div className="flex-shrink-0 self-center">
                     <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
                   </div>
                 </li>
               ))}
             </ul>
+            <Link href='/'>
             <div className="mt-8">
-              <a href="#" className="text-base font-medium text-apexB hover:text-apexB">
+              <a className="text-base font-medium text-apexB cursor-pointer hover:text-apexG hover:underline duration-300">
                 Or go back home
                 <span aria-hidden="true"> &rarr;</span>
               </a>
             </div>
+            </Link>
           </div>
         </div>
       </main>

@@ -19,6 +19,7 @@ module.exports = {
       yellow: colors.yellow,
       green: colors.green,
       blue: colors.blue,
+      red: colors.red,
       apexB: '#4282F4',
       apexG: '#0FB22A',
     },

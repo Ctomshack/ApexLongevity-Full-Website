@@ -43,7 +43,7 @@ const Patients = [
     href: '/patients/FindAProvider',
     icon: MapPinIcon,
   },
-  { name: 'FAQs', description: "Our answers to your most frequently asked questions.", href: '#', icon: QuestionMarkCircleIcon },
+  { name: 'FAQs', description: "Our answers to your most frequently asked questions.", href: '/patients/FAQs', icon: QuestionMarkCircleIcon },
   {
     name: 'Contact Us',
     description: "Have a question about the plan? Speak with an Apex Longevity support representative now.",

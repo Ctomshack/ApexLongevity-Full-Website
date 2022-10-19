@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { CheckCircleIcon } from '@heroicons/react/20/solid'
+import PatientJoinApexModal from './PatientJoinApexModal'
 
 const includedFeatures = [
   'Immediate family coverage',
@@ -8,13 +10,20 @@ const includedFeatures = [
 ]
 
 export default function PatientPricing() {
+    const [open, setOpen] = useState(false);
+    console.log(open)
+
+    const handleClose = () => {
+        setOpen(false)
+      }
+
   return (
     <div className="bg-gray-100">
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-              Simple no-tricks pricing
+              Simple, no-tricks pricing
             </h2>
             <p className="mt-4 text-xl text-gray-600">
               {`If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.`}
@@ -65,8 +74,8 @@ export default function PatientPricing() {
                 <div className="mt-6">
                   <div className="rounded-md shadow">
                     <a
-                      href="#"
-                      className="flex items-center justify-center rounded-md border border-transparent bg-apexB px-5 py-3 text-base font-medium text-white hover:bg-apexG"
+                      onClick={() => setOpen(true)}
+                      className="flex items-center cursor-pointer justify-center rounded-md border border-transparent bg-apexB px-5 py-3 text-base font-medium text-white hover:bg-apexG"
                     >
                       Start Today
                     </a>
@@ -80,6 +89,7 @@ export default function PatientPricing() {
           </div>
         </div>
       </div>
+      <PatientJoinApexModal onClose={handleClose} visible={open}/>
     </div>
   )
 }
