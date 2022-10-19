@@ -29,7 +29,7 @@ const navigation = {
     { name: 'FAQs', href: '/patients/FAQs' },
   ],
   Providers: [
-    { name: 'Login', href: '#' },
+    { name: 'Login', href: 'https://app.apexlongevity.com/login' },
     { name: 'Join Apex', href: '/providers/JoinApex' },
     { name: 'About', href: '/providers/About' },
     { name: 'FAQs', href: '/providers/FAQs' },
