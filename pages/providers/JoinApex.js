@@ -23,7 +23,7 @@ const JoinApex = () => {
       <Navigation />
       {/* <Header /> */}
 
-      <div className="bg-white md:mt-12 px-6" id="GetStarted">
+      <div className="bg-gray-50 md:pt-12 px-6" id="GetStarted">
         <div className="px-4 md:py-8 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
           <div className="pb-16 xl:flex xl:items-center xl:justify-between">
             <div>
