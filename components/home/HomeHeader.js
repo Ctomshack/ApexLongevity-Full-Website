@@ -135,11 +135,11 @@ export default function HomeHeader() {
               <div className="relative">
                 <div className="absolute inset-0 h-3/4" />
                 <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                  <div className="mx-auto max-w-md space-y-4 lg:grid lg:max-w-5xl lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+                  <div className="mx-auto max-w-md space-y-8 lg:grid lg:max-w-5xl lg:grid-cols-2 lg:gap-8 lg:space-y-0">
                     {roles.map((role) => (
                       <div
                         key={role.name}
-                        className="flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl hover:scale-105 duration-300"
+                        className="flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-xl hover:scale-110 duration-300"
                       >
                         
                         <div className="bg-white px-6 py-8 sm:p-10 sm:pb-6">
