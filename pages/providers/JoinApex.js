@@ -6,6 +6,7 @@ import Header from "../../components/providers/Header";
 import Footer from "../../components/providers/Footer";
 
 import { CheckIcon } from "@heroicons/react/24/outline";
+import Disclaimer from "../../components/Disclaimer";
 
 const features = [
   "Step 1: Submit the email form below or call +1 (877) 712-2739",
@@ -27,12 +28,12 @@ const JoinApex = () => {
           <div className="pb-16 xl:flex xl:items-center xl:justify-between">
             <div>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-                <span className="text-gray-900">
+                <span className="text-gray-900 drop-shadow-md">
                   Become an Apex Longevity Provider for{" "}
                 </span>
-                <span className="text-apexB"> Free</span>
+                <span className="text-apexB drop-shadow-md"> Free</span>
               </h1>
-              <p className="mt-5 text-xl text-gray-500 lg:w-3/4">
+              <p className="mt-5 text-xl text-gray-500 lg:w-3/4 drop-shadow-sm">
                 Includes every feature we offer within a personalized Apex
                 Longevity dashboard, free marketing brochures, free new patients
                 marketing, unlimited member enrollments, 1-on-1 training, and
@@ -76,7 +77,7 @@ const JoinApex = () => {
                         className="flex-shrink-0 w-6 h-6 text-apexG"
                         aria-hidden="true"
                       />
-                      <span className="ml-3 text-base text-gray-500">
+                      <span className="ml-3 text-base text-gray-900">
                         {feature}
                       </span>
                     </li>
@@ -86,7 +87,7 @@ const JoinApex = () => {
                         className="flex-shrink-0 w-6 h-6 text-apexG"
                         aria-hidden="true"
                       />
-                      <span className="ml-3 text-base text-gray-500">
+                      <span className="ml-3 text-base text-gray-900">
                         {feature}
                       </span>
                     </li>
@@ -99,6 +100,7 @@ const JoinApex = () => {
       </div>
 
       <ContactUs />
+      <Disclaimer />
       <Footer />
     </>
   );

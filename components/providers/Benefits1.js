@@ -56,7 +56,7 @@ export default function Benefits1() {
 
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">With Apex, you can sleep well at night knowing that you...</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl  drop-shadow-sm">With Apex, you can sleep well at night knowing that you...</h2>
           </div>
           <dl className="mt-10 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 sm:space-y-0 lg:col-span-2 lg:mt-0">
             {features.map((feature) => (

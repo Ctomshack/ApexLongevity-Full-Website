@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Navigation } from "../../components";
+import Disclaimer from "../../components/Disclaimer";
 import Benefits1 from "../../components/providers/Benefits1";
 import Benefits2 from "../../components/providers/Benefits2";
 import Benefits3 from "../../components/providers/Benefits3";
@@ -34,6 +35,7 @@ export default function About() {
         <ConvertPatients />
         <How />
         <ContactUs />
+        <Disclaimer />
         <Footer />
       </div>
 

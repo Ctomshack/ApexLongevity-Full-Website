@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Navigation, PatientBenefits, PatientFAQs, PatientHeader, PatientPricing } from "../../components";
+import Disclaimer from "../../components/Disclaimer";
 import Footer from "../../components/providers/Footer";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <PatientBenefits />
         <PatientPricing />
         <PatientFAQs />
+        <Disclaimer />
         <Footer />
       </div>
 

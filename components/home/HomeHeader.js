@@ -2,6 +2,7 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
 import Navigation from "../Navigation";
+import Disclaimer from "../Disclaimer";
 
 const roles = [
   {
@@ -106,7 +107,7 @@ export default function HomeHeader() {
         </div>
       </div>
 
-      <div className="relative pb-16 sm:pb-24"> 
+      <div className="relative pb-16"> 
       {/* pt-6 (this is a classname from the div above that was removed) */}
 
       {/* <Navigation /> */}

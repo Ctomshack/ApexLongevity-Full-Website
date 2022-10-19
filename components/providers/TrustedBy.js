@@ -5,7 +5,7 @@ export default function TrustedBy() {
       <div className="md:pt-0 md:mb-16 bg-gray-50 sm:pt-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl drop-shadow-sm">
               Trusted by Chiropractic Clinics & Patients Everywhere
             </h2>
             <p className="mt-3 text-xl text-gray-500 sm:mt-4">

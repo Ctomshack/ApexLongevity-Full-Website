@@ -70,19 +70,19 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="relative bg-white" id="ContactUs">
+    <div className="relative bg-white border-b-2 border-t-2 border-apexB" id="ContactUs">
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
       </div>
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
-        <div className="px-4 py-16 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+        <div className="px-4 py-16 bg-apexB rounded-r-3xl  sm:px-6 lg:col-span-2 lg:px-8  xl:pr-12">
           <div className="max-w-lg mx-auto">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{`Become a Provider Today`}</h2>
-            <p className="mt-3 text-lg leading-6 text-gray-500">
+            <h2 className="text-2xl font-bold tracking-tight text-white drop-shadow sm:text-3xl">{`Become a Provider Today`}</h2>
+            <p className="mt-3 text-lg leading-6 text-gray-200">
               Submit the contact form or use one of the below options to get in
               touch with an Apex Longevity representative today
             </p>
-            <dl className="mt-8 text-base text-gray-500">
+            <dl className="mt-8 text-base text-gray-200">
               <div>
                 <dt className="sr-only">Postal address</dt>
                 <dd>
@@ -94,17 +94,17 @@ export default function ContactUs() {
                 <dt className="sr-only">Phone number</dt>
                 <dd className="flex">
                   <PhoneIcon
-                    className="flex-shrink-0 w-6 h-6 text-gray-400"
+                    className="flex-shrink-0 w-6 h-6 text-gray-200"
                     aria-hidden="true"
                   />
-                  <a href="tel:+18777122739"><span className="ml-3 hover:text-apexG">+1 (877) 712-2739</span></a>
+                  <a href="tel:+18777122739"><span className="ml-3 hover:text-white hover:underline">+1 (877) 712-2739</span></a>
                 </dd>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <EnvelopeIcon
-                    className="flex-shrink-0 w-6 h-6 text-gray-400"
+                    className="flex-shrink-0 w-6 h-6 text-gray-200"
                     aria-hidden="true"
                   />
                   <span className="ml-3">support@apexlongevity.com</span>
@@ -113,7 +113,7 @@ export default function ContactUs() {
             </dl>
           </div>
         </div>
-        <div className="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+        <div className="px-4 py-16 bg-white sm:px-6 lg:col-span-3  lg:px-8 xl:pl-12">
           <div className="max-w-lg mx-auto lg:max-w-none">
             <form
               ref={form}

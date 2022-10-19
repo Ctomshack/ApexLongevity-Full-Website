@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Navigation, PatientBenefits, PatientFAQs, PatientHeader, PatientPricing } from "../../components";
+import Disclaimer from "../../components/Disclaimer";
 import PatientBenefits2 from "../../components/patients/PatientBenefits2";
 import PatientPricing2 from "../../components/patients/PatientPricing2";
 import Footer from "../../components/providers/Footer";
@@ -20,6 +21,7 @@ export default function JoinApex() {
         <PatientPricing2 />
         <PatientBenefits />
         <PatientFAQs />
+        <Disclaimer />
         <Footer />
       </div>
 

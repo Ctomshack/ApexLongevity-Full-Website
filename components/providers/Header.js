@@ -20,9 +20,9 @@ import Link from 'next/link'
           <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
             <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                <span className="block xl:inline">The Most Compliant Way To Offer</span>{' '}
-                <span className="block text-apexB xl:inline">Cash Discounts</span>{' '}
-                <span className="block xl:inline">To Your Patients</span>
+                <span className="block xl:inline drop-shadow-md">The Most Compliant Way To Offer</span>{' '}
+                <span className="block text-apexB xl:inline drop-shadow-md">Cash Discounts</span>{' '}
+                <span className="block xl:inline drop-shadow-md">To Your Patients</span>
               </h1>
               <p className="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
                 More cash paying patients. Compliant cash discounts. FREE digital marketing to attract new patients every month!

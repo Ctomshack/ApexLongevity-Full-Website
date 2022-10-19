@@ -85,8 +85,8 @@ export default function PatientFAQs() {
             </Link>{' '}
             with your enquiry.
           </p>
-        <div className="mt-8 divide-y divide-gray-200">
-        <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+        <div className="mt-8 divide-y divide-gray-200 ">
+        <dl className="mt-6 space-y-6 divide-y divide-gray-200 ">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">
                 {({ open }) => (
