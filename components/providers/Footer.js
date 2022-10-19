@@ -23,14 +23,14 @@ import Link from "next/link"
 
 const navigation = {
   Patients: [
-    { name: 'Join Apex', href: '/patients/join' },
-    { name: 'Find a Provider', href: '/patients/findAProvider' },
-    { name: 'About', href: '/patients/about' },
+    { name: 'Join Apex', href: '/patients/JoinApex' },
+    { name: 'Find a Provider', href: '/patients/FindAProvider' },
+    { name: 'About', href: '/patients/About' },
     { name: 'FAQs', href: '/patients/FAQs' },
   ],
   Providers: [
     { name: 'Login', href: '#' },
-    { name: 'Join Apex', href: '/providers/Join' },
+    { name: 'Join Apex', href: '/providers/JoinApex' },
     { name: 'About', href: '/providers/About' },
     { name: 'FAQs', href: '/providers/FAQs' },
   ],
@@ -97,7 +97,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-gray-400 hover:text-apexG">
+                <a key={item.name} href={item.href} className="text-gray-400 hover:text-white hover:underline">
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
                 </a>
@@ -111,7 +111,7 @@ export default function Footer() {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.Patients.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-base text-gray-400 hover:text-apexG">
+                      <a href={item.href} className="text-base text-gray-400 hover:text-white hover:underline">
                         {item.name}
                       </a>
                     </li>
@@ -123,7 +123,7 @@ export default function Footer() {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.Providers.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-base text-gray-400 hover:text-apexG">
+                      <a href={item.href} className="text-base text-gray-400 hover:text-white hover:underline">
                         {item.name}
                       </a>
                     </li>
@@ -137,7 +137,7 @@ export default function Footer() {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-base text-gray-400 hover:text-apexG">
+                      <a href={item.href} className="text-base text-gray-400 hover:text-white hover:underline">
                         {item.name}
                       </a>
                     </li>
@@ -149,7 +149,7 @@ export default function Footer() {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-base text-gray-400 hover:text-apexG">
+                      <a href={item.href} className="text-base text-gray-400 hover:text-white hover:underline">
                         {item.name}
                       </a>
                     </li>

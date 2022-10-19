@@ -77,7 +77,7 @@ export default function ContactUs() {
       <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
         <div className="px-4 py-16 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
           <div className="max-w-lg mx-auto">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{`Let's Work Together`}</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{`Become a Provider Today`}</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
               Submit the contact form or use one of the below options to get in
               touch with an Apex Longevity representative today

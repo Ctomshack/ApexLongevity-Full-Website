@@ -18,14 +18,14 @@ export default function PatientPricing() {
       }
 
   return (
-    <div className="bg-gray-100" id='GetStarted'>
+    <div className=" bg-apexB" id='GetStarted'>
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl drop-shadow-lg">
               Simple, no-tricks pricing
             </h2>
-            <p className="mt-4 text-xl text-gray-600">
+            <p className="mt-4 text-xl text-gray-300 drop-shadow-md">
               {`If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.`}
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function PatientPricing() {
       </div>
       <div className="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
         <div className="relative">
-          <div className="absolute inset-0 h-1/2 bg-gray-100" />
+          <div className=" absolute inset-0 h-1/2 bg-apexB" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none">
               <div className="flex-1 bg-white px-6 py-8 lg:p-12">

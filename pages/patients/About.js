@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Navigation, PatientBenefits, PatientHeader, PatientPricing } from "../../components";
+import { Navigation, PatientBenefits, PatientFAQs, PatientHeader, PatientPricing } from "../../components";
 import Footer from "../../components/providers/Footer";
 
 export default function Home() {
@@ -17,6 +17,7 @@ export default function Home() {
         <PatientHeader />
         <PatientBenefits />
         <PatientPricing />
+        <PatientFAQs />
         <Footer />
       </div>
 

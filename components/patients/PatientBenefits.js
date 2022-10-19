@@ -1,4 +1,4 @@
-import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon, UsersIcon, NoSymbolIcon, ArrowPathIcon } from '@heroicons/react/24/outline'
+import { ChatBubbleBottomCenterTextIcon, UsersIcon, NoSymbolIcon, ArrowPathIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
@@ -29,7 +29,7 @@ const features = [
 
 export default function PatientBenefits() {
   return (
-    <div className="bg-white py-12" id='LearnMore'>
+    <div className="bg-white py-16" id='LearnMore'>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg font-semibold text-apexB">What is Apex Longevity?</h2>
@@ -41,7 +41,7 @@ export default function PatientBenefits() {
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-16">
           <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
             {features.map((feature) => (
               <div key={feature.name} className="relative">

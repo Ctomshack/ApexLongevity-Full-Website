@@ -25,5 +25,6 @@ export { default as HomeHeader } from './home/HomeHeader';
 export { default as PatientHeader } from './patients/PatientHeader';
 export { default as PatientBenefits } from './patients/PatientBenefits';
 export { default as PatientPricing } from './patients/PatientPricing';
+export { default as PatientFAQs } from './patients/PatientFAQs';
 export { default as PatientJoinApexModal } from './patients/PatientJoinApexModal';
 

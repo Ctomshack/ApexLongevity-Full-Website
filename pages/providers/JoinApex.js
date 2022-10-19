@@ -20,7 +20,7 @@ const JoinApex = () => {
   return (
     <>
       <Navigation />
-      <Header />
+      {/* <Header /> */}
 
       <div className="bg-white md:mt-12 px-6" id="GetStarted">
         <div className="px-4 md:py-8 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">

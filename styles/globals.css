@@ -61,3 +61,18 @@ Link {
   box-sizing: border-box;
   transition-duration: .3s;
 }
+
+.linearGradient {
+  background: rgb(66,130,244);
+  background: linear-gradient(0deg, rgba(66,130,244,1) 15%, rgba(249,250,251,1) 100%);
+}
+
+.radialGradient {
+  background: rgb(66,130,244);
+  background: radial-gradient(circle, rgba(66,130,244,1) 50%, rgba(122,167,247,1) 100%);
+}
+
+.radialGradient2 {
+  background: rgb(66,130,244);
+background: radial-gradient(circle, rgba(66,130,244,1) 0%, rgba(122,167,247,1) 100%);
+}
