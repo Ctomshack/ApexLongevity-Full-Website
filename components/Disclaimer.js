@@ -47,7 +47,7 @@ export default function Disclaimer() {
   };
 
   return (
-    <Box className='sm:px-8 bg-gray-50 mx-auto'>
+    <Box className='sm:px-8 bg-gray-50 mx-auto' id='Disclaimer'>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="Disclosure">
           <Tab label="Disclosure" {...a11yProps(0)} />

@@ -12,7 +12,7 @@ const roles = [
     description:
       "Apex Longevity membership holders enjoy access to affordable chiropractic care for their entire family",
     features: [
-      "One plan to cover the entire family",
+      "One plan to cover the entire immediate family",
       "Affordable care for all family members under the same plan",
       "Affordable care to supplement rising costs and exhausted insurance benefits",
     ],

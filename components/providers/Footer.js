@@ -42,8 +42,7 @@ const navigation = {
     // { name: 'Partners', href: '#' },
   ],
   legal: [
-    { name: 'Disclaimer', href: '#' },
-    { name: 'California Residents', href: '#' },
+    { name: 'Disclaimer', href: '#Disclaimer' },
     { name: 'Privacy', href: '#' },
     { name: 'Terms', href: '#' },
   ],
