@@ -1,8 +1,15 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import SEO from "@bradgarropy/next-seo";
 import Script from 'next/script';
+import { hotjar } from 'react-hotjar';
+import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
+
+  useEffect(() => {
+    hotjar.initialize(3211093, 6)
+  }, [])
+
   return (
   <>
   <SEO
