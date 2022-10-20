@@ -1,8 +1,6 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
 import ContactUs from "../../components/providers/ContactUs";
-import How from "../../components/providers/How";
-import Header from "../../components/providers/Header";
 import Footer from "../../components/providers/Footer";
 
 import { CheckIcon } from "@heroicons/react/24/outline";
@@ -21,7 +19,6 @@ const JoinApex = () => {
   return (
     <>
       <Navigation />
-      {/* <Header /> */}
 
       <div className="bg-gray-50 md:pt-12 px-6" id="GetStarted">
         <div className="px-4 md:py-8 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
