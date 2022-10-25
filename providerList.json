@@ -1,0 +1,856 @@
+[
+    {
+        "Name": "HealthSource of Muscle Shoals",
+        "Address": "3312 Woodward Ave Suite 101-A",
+        "City": "Muscle Shoals",
+        "State": "Alabama",
+        "Phone": "(256)-314-2347"
+    },
+    {
+        "Name": "HealthSource of Foley",
+        "Address": "1320 N McKenzie St",
+        "City": "Foley",
+        "State": "Alabama",
+        "Phone": "(225)-301-7951"
+    },
+    {
+        "Name": "HealthSource of Florence",
+        "Address": "133 Ana Dr",
+        "City": "Florence",
+        "State": "Alabama",
+        "Phone": "(256)-275-3700"
+    },
+    {
+        "Name": "HealthSource of Huntsville SE",
+        "Address": "975 Airport Rd SW Suite H",
+        "City": "Huntsville",
+        "State": "Alabama",
+        "Phone": "(256) 964-6678"
+    },
+    {
+        "Name": "HealthSource of Decatur SE",
+        "Address": "2934 Point Mallard Pkwy SE Suite B2",
+        "City": "Decatur",
+        "State": "Alabama",
+        "Phone": "(256)-584-9554"
+    },
+    {
+        "Name": "HealthSource of Spanish Fort",
+        "Address": "10200 Eastern Shore Blvd Suite 106",
+        "City": "Spanish Fort",
+        "State": "Alabama",
+        "Phone": "(251)-621-4037"
+    },
+    {
+        "Name": "Healthsource of Providence Huntsville",
+        "Address": "485 Providence Main St NW Suite 100",
+        "City": "Huntsville",
+        "State": "Alabama",
+        "Phone": "(256)-327-4900"
+    },
+    {
+        "Name": "HealthSource of Harvest",
+        "Address": "5850 AL-53 Suite N",
+        "City": "Harvest",
+        "State": "Alabama",
+        "Phone": "(256)-852-2000"
+    },
+    {
+        "Name": "HealthSource of Hartselle",
+        "Address": "601 Sparkman St SW",
+        "City": "Hartselle",
+        "State": "Alabama",
+        "Phone": "(256) 502-8022"
+    },
+    {
+        "Name": "HealthSource of Hughes Road",
+        "Address": "525 Hughes Road, Suite G",
+        "City": "Madison",
+        "State": "Alabama",
+        "Phone": "(256) 325-0264"
+    },
+    {
+        "Name": "HealthSource of Huntsville - The Rocket City",
+        "Address": "2915 Bob Wallace Ave SW B",
+        "City": "Huntsville",
+        "State": "Alabama",
+        "Phone": "(256)-880-8833"
+    },
+    {
+        "Name": "HealthSource of Athens",
+        "Address": "1207 E Forrest St Suite A",
+        "City": "Athens",
+        "State": "Alabama",
+        "Phone": "(256) 233-7776"
+    },
+    {
+        "Name": "Healthsource of Decatur",
+        "Address": " 2349 Danville Rd SW Suite 210",
+        "City": "Decatur",
+        "State": "Alabama",
+        "Phone": "(256) 822-1010"
+    },
+    {
+        "Name": "HealthSource of Chandler South",
+        "Address": "1445 S Arizona Ave Suite 12",
+        "City": "Chandler",
+        "State": "Arizona",
+        "Phone": "(480) 726-3305"
+    },
+    {
+        "Name": "HealthSource of North Phoenix",
+        "Address": "3131 East Thunderbird Rd. Suite 13A",
+        "City": "Phoenix ",
+        "State": "Arizona",
+        "Phone": "(602) 971-2148"
+    },
+    {
+        "Name": "HealthSource of Lake Forest",
+        "Address": "22672 Lambert Street, Suite 601",
+        "City": "Lake Forest",
+        "State": "California",
+        "Phone": "(949)-273-5935"
+    },
+    {
+        "Name": "HealthSource of Anaheim",
+        "Address": "504 N State College Blvd",
+        "City": "Anaheim",
+        "State": "California",
+        "Phone": "(714)-772-7100"
+    },
+    {
+        "Name": "HealthSource of Mira Loma",
+        "Address": "6205 Pats Ranch Rd D",
+        "City": "Mira Loma",
+        "State": "California",
+        "Phone": "(951)-278-1120"
+    },
+    {
+        "Name": "HealthSource of Hermosa Beach",
+        "Address": "1100 CA-1 Suite A",
+        "City": "Hermosa Beach",
+        "State": "California",
+        "Phone": "(310) 798-3227"
+    },
+    {
+        "Name": "HealthSource of Highlands Ranch West",
+        "Address": "9249 S Broadway #100",
+        "City": "Highlands Ranch",
+        "State": "Colorado",
+        "Phone": "(303)-470-1020"
+    },
+    {
+        "Name": "HealthSource of LIttleton",
+        "Address": "9126 W Bowles Ave #2A",
+        "City": "Littleton",
+        "State": "Colorado",
+        "Phone": "(303) 904-9994"
+    },
+    {
+        "Name": "HealthSource of DTC, P.C.",
+        "Address": "5105 DTC Pkwy Suite #305",
+        "City": "Greenwood Village",
+        "State": "Colorado",
+        "Phone": "(303)-290-0022"
+    },
+    {
+        "Name": "Belleview Spine and Wellness",
+        "Address": "1712 W Uintah St",
+        "City": "Colorado Springs",
+        "State": "Colorado",
+        "Phone": "(719) 247-8441"
+    },
+    {
+        "Name": "HealthSource of Pace",
+        "Address": "4650 Woodbine Rd",
+        "City": "Pace",
+        "State": "Florida",
+        "Phone": "(850) 473-5555"
+    },
+    {
+        "Name": "HealthSource of Pensacola",
+        "Address": "1090 Scenic Hwy",
+        "City": "Pensacola",
+        "State": "Florida",
+        "Phone": "(850) 473-5555"
+    },
+    {
+        "Name": "HealthSource of Nine Mile",
+        "Address": "2122 W 9 Mile Rd",
+        "City": "Pensacola",
+        "State": "Florida",
+        "Phone": "(850) 473-5555"
+    },
+    {
+        "Name": "HealthSource of Suwanee",
+        "Address": "3320 Lawrenceville-Suwanee Rd Suite 1c",
+        "City": "Suwanee",
+        "State": "Georgia",
+        "Phone": "(678)-714-5722"
+    },
+    {
+        "Name": "HealthSource of Milton",
+        "Address": "13083 HWY 9 North, Suite 710",
+        "City": "Milton",
+        "State": "Georgia",
+        "Phone": "(770)-559-7413"
+    },
+    {
+        "Name": "HealthSource of Crabapple",
+        "Address": "12315 Crabapple Rd Suite 152",
+        "City": "Alpharetta",
+        "State": "Georgia",
+        "Phone": "(571)-233-3314"
+    },
+    {
+        "Name": "HealthSource of Atlanta",
+        "Address": "857 Collier Rd NW Suite 6",
+        "City": "Atlanta",
+        "State": "Georgia",
+        "Phone": "(404)-351-5933"
+    },
+    {
+        "Name": "HealthSource of Roswell",
+        "Address": "1020 Woodstock Rd STE 2110",
+        "City": "Roswell",
+        "State": "Georgia",
+        "Phone": "(770)-817-0544"
+    },
+    {
+        "Name": "HealthSource of Cumming",
+        "Address": "5950 Bethelview Rd Suite 200",
+        "City": "Cumming",
+        "State": "Georgia",
+        "Phone": "(470)-839-2226"
+    },
+    {
+        "Name": "HealthSource of West Des Moines",
+        "Address": "2600 University Ave Suite 212",
+        "City": "West Des Moines",
+        "State": "Iowa",
+        "Phone": "(515)-223-1222"
+    },
+    {
+        "Name": "HealthSource of Clive",
+        "Address": "15920 Hickman Rd #900",
+        "City": "Clive",
+        "State": "Iowa",
+        "Phone": "(515)-987-9574"
+    },
+    {
+        "Name": "HealthSource of Meridian, ID",
+        "Address": "3329 W Cherry Ln",
+        "City": "Meridian",
+        "State": "Idaho",
+        "Phone": "(208)-712-4325"
+    },
+    {
+        "Name": "HealthSource of Bolingbrook",
+        "Address": "440 W Boughton Rd Suite 102",
+        "City": "Bolingbrook",
+        "State": "Illinois",
+        "Phone": "(630)-759-8989"
+    },
+    {
+        "Name": "HealthSource of Aurora",
+        "Address": "1695 N Farnsworth Ave",
+        "City": "Aurora",
+        "State": "Illinois",
+        "Phone": "(630)-898-6111"
+    },
+    {
+        "Name": "HealthSource of Mokena",
+        "Address": "18700 Wolf Road, Suite 211",
+        "City": "Mokena",
+        "State": "Illinois",
+        "Phone": "(708)-478-4400"
+    },
+    {
+        "Name": "HealthSource of Richton Park",
+        "Address": "22111 Governors Hwy",
+        "City": "Richton Park",
+        "State": "Illinois",
+        "Phone": "(708)-748-5600"
+    },
+    {
+        "Name": "HealthSource of Plainfield",
+        "Address": "24020 W Riverwalk Ct Suite 118",
+        "City": "Plainfield",
+        "State": "Illinois",
+        "Phone": "(815)-782-7097"
+    },
+    {
+        "Name": "HealthSource of Champaign",
+        "Address": "2003 Round Barn Rd Ste. B",
+        "City": "Champaign",
+        "State": "Illinois",
+        "Phone": "(217)-281-0006"
+    },
+    {
+        "Name": "HealthSource of Chicago Wicker Park",
+        "Address": "1448 N Milwaukee Ave 3rd Floor",
+        "City": "Chicago",
+        "State": "Illinois",
+        "Phone": "(773)-772-4000"
+    },
+    {
+        "Name": "HealthSource of Clarksville",
+        "Address": "1305 Veterans Pkwy Suite 900",
+        "City": "Clarksville",
+        "State": "Indiana",
+        "Phone": "(812) 924-7611"
+    },
+    {
+        "Name": "HealthSource of El Dorado",
+        "Address": "1425 W Central Ave",
+        "City": "El Dorado",
+        "State": "Kansas",
+        "Phone": "(316)-321-1667"
+    },
+    {
+        "Name": "HealthSource of Covington",
+        "Address": "9 Starbrush Cir #201",
+        "City": "Covington",
+        "State": "Louisiana",
+        "Phone": "(985) 259-7774"
+    },
+    {
+        "Name": "HealthSource of Stoughton",
+        "Address": "294 Pleasant St #104",
+        "City": "Stoughton",
+        "State": "Maine",
+        "Phone": "(781)-344-8878"
+    },
+    {
+        "Name": "HealthSource of Milford",
+        "Address": "138 S Main St #14",
+        "City": "Milford",
+        "State": "Maine",
+        "Phone": "(508)-282-5249"
+    },
+    {
+        "Name": "HS of Crofton",
+        "Address": "2101 Concord Blvd Suite E",
+        "City": "Crofton",
+        "State": "Maryland",
+        "Phone": "(410) 402-9974"
+    },
+    {
+        "Name": "HealthSource of Troy",
+        "Address": "2095 E Big Beaver Rd Suite 300",
+        "City": "Troy",
+        "State": "Michigan",
+        "Phone": "(248)-729-7004"
+    },
+    {
+        "Name": "HealthSource of Marshall",
+        "Address": "317 W Main St",
+        "City": "Marshall",
+        "State": "Minnesota",
+        "Phone": "(507)-337-2423"
+    },
+    {
+        "Name": "HealthSource of Lake City",
+        "Address": "925 South Oak Street",
+        "City": "Lake City",
+        "State": "Minnesota",
+        "Phone": "(651)-345-5615"
+    },
+    {
+        "Name": "HealthSource of Apple Valley",
+        "Address": "15322 Galaxie Ave Suite 110",
+        "City": "Apple Valley",
+        "State": "Minnesota",
+        "Phone": "(952)-953-0990"
+    },
+    {
+        "Name": "HealthSource of Champlin",
+        "Address": "11225 Commerce Dr N",
+        "City": "Champlin",
+        "State": "Minnesota",
+        "Phone": "(763) 421-8588"
+    },
+    {
+        "Name": "HealthSource of Elk River",
+        "Address": "804 Freeport Ave Suite C",
+        "City": "Elk River",
+        "State": "Minnesota",
+        "Phone": "(763)-441-0644"
+    },
+    {
+        "Name": "HealthSource of Rogers",
+        "Address": "13635 Northdale Blvd",
+        "City": "Rogers",
+        "State": "Minnesota",
+        "Phone": "(763)-428-1105"
+    },
+    {
+        "Name": "HealthSource of Hopkins",
+        "Address": "724 Mainstreet",
+        "City": "Hopkins",
+        "State": "Minnesota",
+        "Phone": "(952)-943-2584"
+    },
+    {
+        "Name": "HealthSource of Baxter",
+        "Address": "7818 Excelsior Rd #100",
+        "City": "Baxter",
+        "State": "Minnesota",
+        "Phone": "(218)-454-9355"
+    },
+    {
+        "Name": "HealthSource of Eden Prairie",
+        "Address": "7920 Mitchell Rd",
+        "City": "Eden Prairie",
+        "State": "Minnesota",
+        "Phone": "(952)-345-6110"
+    },
+    {
+        "Name": "HealthSource of New Prague",
+        "Address": "314 Main St W Suite 2",
+        "City": "New Prague",
+        "State": "Minnesota",
+        "Phone": "(952) 758-4121"
+    },
+    {
+        "Name": "HealthSource of St. Cloud",
+        "Address": "1246 32nd Ave N",
+        "City": "St. Cloud",
+        "State": "Minnesota",
+        "Phone": "(320)-230-8920"
+    },
+    {
+        "Name": "HealthSource of Chaska",
+        "Address": "1475 White Oak Dr",
+        "City": "Chaska",
+        "State": "Minnesota",
+        "Phone": "(952)-361-4844"
+    },
+    {
+        "Name": "HealthSource of Buffalo",
+        "Address": "639 Ryan's Way",
+        "City": "Buffalo",
+        "State": "Minnesota",
+        "Phone": "(763)-600-8355"
+    },
+    {
+        "Name": "HealthSource of Albertville",
+        "Address": "5676 La Centre Ave",
+        "City": "Albertville",
+        "State": "Minnesota",
+        "Phone": "(763)-497-0777"
+    },
+    {
+        "Name": "HealthSource of Shoreview",
+        "Address": "5936 Lexington Ave N",
+        "City": "Shoreview",
+        "State": "Minnesota",
+        "Phone": "(651) 784-3396"
+    },
+    {
+        "Name": "HealthSource of Prior Lake",
+        "Address": "6880 Boudin St NE STE 230",
+        "City": "Prior Lake",
+        "State": "Minnesota",
+        "Phone": "(952) 447-0985"
+    },
+    {
+        "Name": "HealthSource Minnetonka",
+        "Address": "14413 Excelsior Blvd",
+        "City": "Minnetonka",
+        "State": "Minnesota",
+        "Phone": "(952) 746-1506"
+    },
+    {
+        "Name": "HealthSource of Plymouth",
+        "Address": "4205 Lancaster Ln N Suite 105",
+        "City": "Plymouth",
+        "State": "Minnesota",
+        "Phone": "(763)-536-1112"
+    },
+    {
+        "Name": "HealthSource of Duluth",
+        "Address": "2524 Maple Grove Rd",
+        "City": "Duluth",
+        "State": "Minnesota",
+        "Phone": "(218)-722-1423"
+    },
+    {
+        "Name": "HealthSource of Hutchinson",
+        "Address": "233 Hassan St SE",
+        "City": "Hutchinson",
+        "State": "Minnesota",
+        "Phone": "320-234-3584"
+    },
+    {
+        "Name": "HealthSource of Lakeville",
+        "Address": "17725 Kenwood Trail Ste 3",
+        "City": "Lakeville",
+        "State": "Minnesota",
+        "Phone": "(952)-683-1101"
+    },
+    {
+        "Name": "HealthSource of Richfield Woodlake",
+        "Address": "6701 Lyndale Avenue South",
+        "City": "Richfield",
+        "State": "Minnesota",
+        "Phone": "(612)-866-9194"
+    },
+    {
+        "Name": "HealthSource of Edina-Crosstown",
+        "Address": "6600 France Ave S #206",
+        "City": "Edina",
+        "State": "Minnesota",
+        "Phone": "(952)-926-7515"
+    },
+    {
+        "Name": "HealthSource of Burnsville",
+        "Address": "200 E Travelers Trail #115",
+        "City": "Burnsville",
+        "State": "Minnesota",
+        "Phone": "(952) 300-2050"
+    },
+    {
+        "Name": "HealthSource of Ballwin",
+        "Address": "431 Center Ct",
+        "City": "Ballwin",
+        "State": "Missouri",
+        "Phone": "(636)-220-1007"
+    },
+    {
+        "Name": "HealthSource of Washington",
+        "Address": "707 Jefferson Street",
+        "City": "Washington",
+        "State": "Missouri",
+        "Phone": "(636) 239-1220"
+    },
+    {
+        "Name": "HealthSource of Clayton",
+        "Address": "950 Francis Pl Suite 217",
+        "City": "Clayton",
+        "State": "Missouri",
+        "Phone": "(314)-644-2081"
+    },
+    {
+        "Name": "HealthSource of Missoula",
+        "Address": "3487 W Broadway St",
+        "City": "Missoula",
+        "State": "Montana",
+        "Phone": "(406) 721-9080"
+    },
+    {
+        "Name": "HealthSource of Butte",
+        "Address": "1554 Harrison Ave, Suite A",
+        "City": "Butte",
+        "State": "Montana",
+        "Phone": "(406)-494-2979"
+    },
+    {
+        "Name": "HealthSource of Concord North",
+        "Address": "980 Copperfield Blvd NE",
+        "City": "Concord",
+        "State": "North Carolina",
+        "Phone": "(704)-788-1895"
+    },
+    {
+        "Name": "HealthSource of Cary",
+        "Address": "1300 SE Maynard Road, Suite 202",
+        "City": "Cary",
+        "State": "North Carolina",
+        "Phone": "(919) 388-9595"
+    },
+    {
+        "Name": "HealthSource of Asheboro",
+        "Address": "414 N Fayetteville St",
+        "City": "Asheboro",
+        "State": "North Carolina",
+        "Phone": "(414)-272-0333"
+    },
+    {
+        "Name": "All 4 U Chiropractic",
+        "Address": "1624 South Church St.",
+        "City": "Burlington",
+        "State": "North Carolina",
+        "Phone": "(336) 570-2447"
+    },
+    {
+        "Name": "HealthSource of Minot",
+        "Address": "1418 S Broadway Suite C",
+        "City": "Minot",
+        "State": "North Carolina",
+        "Phone": "(701)-839-6717"
+    },
+    {
+        "Name": "HealthSource of Bismarck South",
+        "Address": "232 W Front Ave",
+        "City": "Bismarck",
+        "State": "North Dakota",
+        "Phone": "(701)-751-1660"
+    },
+    {
+        "Name": "HealthSource of Bismarck",
+        "Address": "232 West Front Avenue",
+        "City": "Bismarck",
+        "State": "North Dakota",
+        "Phone": "(701)-222-8322"
+    },
+    {
+        "Name": "Aspire Chiropractic",
+        "Address": "193 24th St E #102",
+        "City": "Dickinson",
+        "State": "North Dakota",
+        "Phone": "(701) 225-3536"
+    },
+    {
+        "Name": "HealthSource of North Fargo",
+        "Address": "2802 Broadway N",
+        "City": "Fargo",
+        "State": "North Dakota",
+        "Phone": "(701)-364-9270"
+    },
+    {
+        "Name": "HealthSource of Manchester",
+        "Address": "545 Hooksett Rd #20",
+        "City": "Manchester",
+        "State": "New Hampshire",
+        "Phone": "(603)-860-6078"
+    },
+    {
+        "Name": "HealthSource of Manchester",
+        "Address": "545 Hooksett Rd Unit 20",
+        "City": "Manchester",
+        "State": "New Hampshire",
+        "Phone": "(603) 413-8747"
+    },
+    {
+        "Name": "HealthSource of Rochester",
+        "Address": "1724 37th St NW",
+        "City": "Rochester",
+        "State": "New York",
+        "Phone": "(507)-424-1200"
+    },
+    {
+        "Name": "HealthSource of Medina",
+        "Address": "5019 Victor Dr",
+        "City": "Medina",
+        "State": "Ohio",
+        "Phone": "(330)-722-7709"
+    },
+    {
+        "Name": "HealthSource of Avon",
+        "Address": "33560 Detroit Rd",
+        "City": "Avon",
+        "State": "Ohio",
+        "Phone": "(440)-937-8087"
+    },
+    {
+        "Name": "HealthSource of Fairlawn",
+        "Address": "2855 W Market St #201",
+        "City": "Fairlawn",
+        "State": "Ohio",
+        "Phone": "(285)-520-1443"
+    },
+    {
+        "Name": "HealthSource of Rocky River",
+        "Address": "21820 Center Ridge Rd",
+        "City": "Rocky River",
+        "State": "Ohio",
+        "Phone": "(440)-308-7592"
+    },
+    {
+        "Name": "HealthSource of Boardman",
+        "Address": "6775 Applewood Blvd",
+        "City": "Boardman",
+        "State": "Ohio",
+        "Phone": "(330) 758-2353"
+    },
+    {
+        "Name": "HealthSource of West Norman",
+        "Address": "481 Merchant Dr",
+        "City": "Norman",
+        "State": "Oklahoma",
+        "Phone": "(405)-329-2000"
+    },
+    {
+        "Name": "HealthSource Of North Penn",
+        "Address": "632 E Main St",
+        "City": "Lansdale",
+        "State": "Pennsylvania",
+        "Phone": "(215)-393-4950"
+    },
+    {
+        "Name": "HealthSource of Washington",
+        "Address": "1825 Washington Rd Ste B",
+        "City": "Washington",
+        "State": "Pennsylvania",
+        "Phone": "(724)-746-6840"
+    },
+    {
+        "Name": "HealthSource of Pittsburgh South",
+        "Address": "3325 Saw Mill Run Blvd",
+        "City": "Pittsburgh",
+        "State": "Pennsylvania",
+        "Phone": "(412) 502-6113"
+    },
+    {
+        "Name": "HealthSource Chiropractic of Erie",
+        "Address": "3307 Erie St. ",
+        "City": "Erie ",
+        "State": "Pennsylvania",
+        "Phone": "(814)-456-4200"
+    },
+    {
+        "Name": "HealthSource of Surfside",
+        "Address": "400 US-17 BUS",
+        "City": "Surfside Beach",
+        "State": "South Carolina",
+        "Phone": "(843)-238-5900"
+    },
+    {
+        "Name": "HealthSource of Northeast Columbia",
+        "Address": "131 Professional Park Rd",
+        "City": "Columbia",
+        "State": "South Carolina",
+        "Phone": "(803)-217-3325"
+    },
+    {
+        "Name": "HealthSource of Goose Creek",
+        "Address": "514 St James Ave Suite D",
+        "City": "Goose Creek",
+        "State": "South Carolina",
+        "Phone": "(843)-824-1777"
+    },
+    {
+        "Name": "HealthSource of Cayce/West Columbia",
+        "Address": "2427 Fish Hatchery Rd",
+        "City": "West Columbia",
+        "State": "South Carolina",
+        "Phone": "(803)-939-0785"
+    },
+    {
+        "Name": "HealthSource of Brookings",
+        "Address": "1829 6th St",
+        "City": "Brookings",
+        "State": "South Dakota",
+        "Phone": "(605)-692-2251"
+    },
+    {
+        "Name": "HealthSource of Sioux Falls South",
+        "Address": "5128 S Cliff Ave Ste 200",
+        "City": "Sioux Falls ",
+        "State": "South Dakota",
+        "Phone": "(605)-357-8093"
+    },
+    {
+        "Name": "HealthSource of Spearfish",
+        "Address": "138 E Hudson St",
+        "City": "Spearfish",
+        "State": "South Dakota",
+        "Phone": "(605)-722-2225"
+    },
+    {
+        "Name": "HealthSource of Watertown",
+        "Address": "1024 29th St SE",
+        "City": "Watertown",
+        "State": "South Dakota",
+        "Phone": "(605)-882-3726"
+    },
+    {
+        "Name": "HealthSource of Rapid City Central",
+        "Address": "325 Omaha St Suite 5",
+        "City": "Rapid City",
+        "State": "South Dakota",
+        "Phone": "(605) 718-5329"
+    },
+    {
+        "Name": "HealthSource of Atascocita",
+        "Address": "18477 W Lake Houston Pkwy Suite 70",
+        "City": "Humble",
+        "State": "Texas",
+        "Phone": "(281)-852-5600"
+    },
+    {
+        "Name": "HealthSource of Carrollton",
+        "Address": "1930 E. Rosemade Parkway, Suite 204",
+        "City": "Carrollton",
+        "State": "Texas",
+        "Phone": "(972) 395-9350"
+    },
+    {
+        "Name": "HealthSource of Lewisville",
+        "Address": "475 TX-121 Suite 100",
+        "City": "Lewisville",
+        "State": "Texas",
+        "Phone": "(972) 315-3576"
+    },
+    {
+        "Name": "HealthSource of Franklin",
+        "Address": "284 Seaboard Ln Suite 100",
+        "City": "Franklin",
+        "State": "Tennessee",
+        "Phone": "(615) 791-9917"
+    },
+    {
+        "Name": "HealthSource of Murfreesboro",
+        "Address": "925 S Church St Suite a200",
+        "City": "Murfreesboro",
+        "State": "Tennessee",
+        "Phone": "(615) 867-1144"
+    },
+    {
+        "Name": "HealthSource of West Houston",
+        "Address": "12315 Westheimer Rd Suite A",
+        "City": "Houston",
+        "State": "Texas",
+        "Phone": "(281)-835-4368"
+    },
+    {
+        "Name": "HealthSource of Baytown",
+        "Address": "4520 S Farm-to-Market 565 Rd",
+        "City": "Baytown",
+        "State": "Texas",
+        "Phone": "(281)-383-0004"
+    },
+    {
+        "Name": "HealthSource of Houston South East",
+        "Address": "10988 Fuqua St",
+        "City": "Houston",
+        "State": "Texas",
+        "Phone": "(281)-464-0118"
+    },
+    {
+        "Name": "HealthSource of Nederland",
+        "Address": "2916 Nederland Ave",
+        "City": "Nederland",
+        "State": "Texas",
+        "Phone": "(409) 722-3231"
+    },
+    {
+        "Name": "HealthSource of Baraboo",
+        "Address": "626 14th St Suite B",
+        "City": "Baraboo",
+        "State": "WI",
+        "Phone": "(608)-844-2116"
+    },
+    {
+        "Name": "HealthSource of Wellsburg",
+        "Address": "920 Charles St",
+        "City": "Wellsburg",
+        "State": "WV",
+        "Phone": "(304)-737-7234"
+    },
+    {
+        "Name": "HealthSource of Riverton",
+        "Address": "910 N 8th St W",
+        "City": "Riverton",
+        "State": "Wyoming",
+        "Phone": "(307) 463-2770"
+    },
+    {
+        "Name": "HealthSource of Gillette",
+        "Address": "110 East Lakeway Road Suite 1000",
+        "City": "Gillette",
+        "State": "Wyoming",
+        "Phone": "(307) 670-9426"
+    }
+]

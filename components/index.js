@@ -1,6 +1,8 @@
 // BASE COMPONENTS
 export { default as ErrorPage } from './ErrorPage';
 export { default as Navigation } from './Navigation';
+export { default as ProviderListDropdown } from './ProviderListDropdown';
+
 
 // PROVIDER FOLDER COMPONENTS
 export { default as Benefits1 } from './providers/Benefits1';
