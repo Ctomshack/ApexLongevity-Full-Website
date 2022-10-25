@@ -75,12 +75,12 @@ const Providers = [
 //     href: '#',
 //     icon: BookmarkSquareIcon,
 //   },
-  // {
-  //   name: 'Testimonials',
-  //   description: 'Real reviews. From real Apex providers.',
-  //   href: '/providers/Testimonials',
-  //   icon: ChatBubbleLeftEllipsisIcon,
-  // },
+  {
+    name: 'Testimonials',
+    description: 'Real reviews. From real Apex providers.',
+    href: '/providers/Testimonials',
+    icon: ChatBubbleLeftEllipsisIcon,
+  },
 //   {
 //     name: 'Events',
 //     description: 'See what meet-ups and other events we might be planning near you.',
