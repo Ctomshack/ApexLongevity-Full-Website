@@ -35,7 +35,7 @@ const navigation = {
     { name: 'FAQs', href: '/providers/FAQs' },
   ],
   company: [
-    { name: 'About', href: '/About' },
+    // { name: 'About', href: '/About' },
     { name: 'Team', href: '/Team' },
     { name: 'Blog', href: '/Blog' },
     { name: 'Jobs', href: '/Jobs' },
