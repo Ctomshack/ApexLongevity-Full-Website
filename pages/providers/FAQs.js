@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
+import Head from 'next/head'
 import Link from 'next/link'
 import { Footer, Navigation } from '../../components'
 
@@ -12,12 +13,12 @@ const faqs = [
   {
     question: "Why choose Apex Longevity over other DMPOs?",
     answer:
-      " ",
+      "There are several great reasons to choose Apex Longevity over other discount medical plans. See https://apexlongevity.com/providers/About for a complete list of benefits.",
   },
   {
     question: "How does Apex help my practice?",
     answer:
-      " ",
+      "Your practice will realize many benefits by partnering with Apex Longevity. See https://apexlongevity.com/providers/About for a complete list of benefits.",
   },
   {
     question: "Is it expensive to join Apex as a provider?",
@@ -75,6 +76,12 @@ function classNames(...classes) {
 export default function ProviderFAQs() {
   return (
     <>
+     <Head>
+        <title>Apex Longevity</title>
+        <meta name="description" content="Apex Longevity - Discount Medical Plan Organization" />
+        <link rel="icon" href="/apexlogo.png" />
+      </Head>
+      
     <Navigation />
     <div className="bg-gray-50">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-12">

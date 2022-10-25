@@ -5,6 +5,7 @@ import Footer from "../../components/providers/Footer";
 
 import { CheckIcon } from "@heroicons/react/24/outline";
 import Disclaimer from "../../components/Disclaimer";
+import Head from "next/head";
 
 const features = [
   "Step 1: Submit the email form below or call +1 (877) 712-2739",
@@ -18,6 +19,12 @@ const features = [
 const JoinApex = () => {
   return (
     <>
+    <Head>
+        <title>Apex Longevity</title>
+        <meta name="description" content="Apex Longevity - Discount Medical Plan Organization" />
+        <link rel="icon" href="/apexlogo.png" />
+      </Head>
+      
       <Navigation />
 
       <div className="bg-gray-50 md:pt-12 px-6" id="GetStarted">

@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import MainContactUs from '../components/home/MainContactUs'
 import Navigation from '../components/Navigation'
@@ -6,6 +7,12 @@ import Footer from '../components/providers/Footer'
 const ContactUs = () => {
   return (
     <>
+    <Head>
+        <title>Apex Longevity</title>
+        <meta name="description" content="Apex Longevity - Discount Medical Plan Organization" />
+        <link rel="icon" href="/apexlogo.png" />
+      </Head>
+      
     <Navigation />
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
