@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 /*
   This example requires some changes to your config:
   
@@ -21,6 +23,7 @@ const people = [
     bio: 'Allison is a people person and is always interested in knowing more about an individual’s passions and goals. As our Director of Operations, she also possesses strong attention to detail and is great at bringing people together to discuss how to turn their practice into a well-oiled machine by implementing systems like Apex Longevity. These attributes make her the perfect person to work with prospective and current providers.',
     twitterUrl: '#',
     linkedinUrl: '#',
+    alt: 'Headshot of the Director of Operations'
   },
     {
       name: 'Dr. Chris Tomshack',
@@ -30,6 +33,7 @@ const people = [
       bio: 'Dr. Tomshack is defined by his relentless desire to discover better ways to both help patients achieve phenomenal health while assisting doctors to achieve their dreams by first creating their ultimate practice. Dr. Tomshack realized there was a huge need for chiropractic offices to legally offer discounted care and thus created Apex Longevity. Dr. Tomshack has degrees in chiropractic and business and has studied business at the graduate level, making him a unicorn among chiropractors. His passion is helping doctors create their dream lifestyle by building successful practices delivering exceptional care.',
       twitterUrl: '#',
       linkedinUrl: '#',
+      alt: 'Headshot of the Founder & CEO'
     },
     {
       name: 'Lisa Tomshack',
@@ -39,6 +43,7 @@ const people = [
       bio: `Lisa has been with Apex Longevity since its inception in 2017.  Lisa's positive energy is contagious and she is an integral component that helps make the Apex culture the very best.  She is a CT graduate from Palmer college of Chiropractic and loves to bike, walk, travel, landscape and enjoy precious time with her family and friends.`,
       twitterUrl: '#',
       linkedinUrl: '#',
+      alt: 'Headshot of the Executive Vice President & HR'
     },
     {
       name: 'Kristen Wallace',
@@ -48,6 +53,7 @@ const people = [
       bio: 'Kristen Wallace spearheads the financial strategy at Apex Longevity as a Corporate Controller. With a background in corporate financing and financial reporting systems, Kristen can manage daily accounting activity while setting a course for long-term growth. She has served as a valued accounting and financial advisor at Apex Longevity since 2017.',
       twitterUrl: '#',
       linkedinUrl: '#',
+      alt: 'Headshot of the Coporate Controller'
     },
   ]
   
@@ -71,7 +77,12 @@ const people = [
                   <li key={person.name} className="sm:py-8">
                     <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                       <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                        <img className="rounded-lg object-cover shadow-lg" src={person.imageUrl} alt="" />
+                        <Image 
+                        // layout='fill'
+                        height='350'
+                        width='300'
+            objectFit='cover'
+            priority='true' className="rounded-lg object-cover shadow-lg" src={person.imageUrl} alt={person.alt} />
                       </div>
                       <div className="sm:col-span-2">
                         <div className="space-y-4">
