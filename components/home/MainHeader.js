@@ -18,9 +18,11 @@ import Link from 'next/link'
           <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
             <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                <span className="block xl:inline drop-shadow">The Discount Medical Plan That</span>{' '}
-                <span className="block text-apexB xl:inline drop-shadow">Everyone Benefits</span>{' '}
-                <span className="block xl:inline drop-shadow">From</span>
+                <span className="block xl:inline drop-shadow">The Plan That Benefits </span>{' '}
+                <span className="block text-apexB xl:inline drop-shadow">Chiropractic Clinics</span>
+                <span className="block xl:inline drop-shadow"> and</span>
+                <span className="block text-apexB xl:inline drop-shadow"> Patients</span>{' '}
+                {/* <span className="block xl:inline drop-shadow">Benefit From</span>{' '} */}
               </h1>
               <p className="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
                 Apex Longevity is the trusted Discount Medical Plan (DMPO) of chiropractic providers and patients nationwide
