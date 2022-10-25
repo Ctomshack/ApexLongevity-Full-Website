@@ -129,7 +129,7 @@ export default function HomeHeader() {
                 {/* <span className="block text-white xl:inline">help you </span> */}
               </h1>
               <p className="mx-auto mt-3 max-w-md text-base text-gray-200 sm:text-lg md:mt-8 pt-4 md:max-w-2xl sm:max-w-xl md:text-xl drop-shadow-md">
-                Please select one of the option below to ensure you receive the right information about Apex Longevity 
+                Please select one of the options below to ensure you receive the right information about Apex Longevity 
               </p>
             </div>
             <div className="mt-8  pb-12 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-16">
