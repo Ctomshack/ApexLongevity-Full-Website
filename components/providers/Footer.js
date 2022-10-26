@@ -2,6 +2,8 @@
 
 import Image from "next/image"
 import Link from "next/link"
+import { FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { BsInstagram } from 'react-icons/bs'
 
 //  export default function Footer() {
 //     return (
@@ -37,14 +39,14 @@ const navigation = {
   company: [
     // { name: 'About', href: '/About' },
     { name: 'Team', href: '/Team' },
-    { name: 'Blog', href: '/Blog' },
-    { name: 'Jobs', href: '/Jobs' },
+    // { name: 'Blog', href: '/Blog' },
+    // { name: 'Jobs', href: '/Jobs' },
     // { name: 'Partners', href: '#' },
   ],
   legal: [
     { name: 'Disclaimer', href: '#Disclaimer' },
     { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+    // { name: 'Terms', href: '#' },
   ],
   social: [
     {
@@ -101,6 +103,14 @@ export default function Footer() {
                   <item.icon className="h-6 w-6" aria-hidden="true" />
                 </a>
               ))}
+              <a href='https://www.instagram.com/apex_longevity/' className="text-gray-400 hover:text-white hover:underline">
+                  <span className="sr-only">Instagram</span>
+                  <FaInstagram className="h-6 w-6" aria-hidden="true" />
+                </a>
+                <a href='https://www.linkedin.com/company/apex-longevity' className="text-gray-400 hover:text-white hover:underline">
+                  <span className="sr-only">Linkedin</span>
+                  <FaLinkedin className="h-6 w-6" aria-hidden="true" />
+                </a>
             </div>
           </div>
           <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

@@ -55,7 +55,7 @@ const faqs = [
       "Apex Longevity is a discount medical plan organization, not insurance. Therefore, dependent information is kept on file in your provider’s office and dependents are not listed on your membership card. Please verify with your provider that they have your dependent information and keep them up-to-date of any changes that need to be made.",
   },
   {
-    question: "When will I receive their Apex Longevity membership card?",
+    question: "When will I receive my Apex Longevity membership card?",
     answer:
       "Your membership card will immediately arrive to your email address on file the day you enroll into the program.",
   },
@@ -83,7 +83,7 @@ export default function PatientFAQs() {
               send us an email
             </a>
             </Link>{' '}
-            with your enquiry.
+            with your inquiry.
           </p>
         <div className="mt-8 divide-y divide-gray-200 ">
         <dl className="mt-6 space-y-6 divide-y divide-gray-200 ">

@@ -21,7 +21,7 @@ export default function TrustedBy() {
                 <dl className="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-2">
                   <div className="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
                     <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">States</dt>
-                    <dd className="order-1 text-5xl font-bold tracking-tight text-apexB">48</dd>
+                    <dd className="order-1 text-5xl font-bold tracking-tight text-apexB">40</dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
                     <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Family Plans</dt>

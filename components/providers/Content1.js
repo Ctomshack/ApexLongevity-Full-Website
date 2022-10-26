@@ -12,6 +12,10 @@
   }
   ```
 */
+
+import { IoWarning } from 'react-icons/io'
+import React from 'react'
+
 export default function Content1() {
     return (
       <div className="relative py-16 overflow-hidden bg-white">
@@ -86,6 +90,7 @@ export default function Content1() {
           <div className="mx-auto text-lg max-w-prose">
             <h1>
               {/* <span className="block text-lg font-semibold text-center text-indigo-600">Introducing</span> */}
+              
               <span className="block mt-2 text-3xl font-bold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl">
               Break free from insurance limits by offering legal cash discounts while receiving free marketing for new patients and free cash bonuses for your team
               </span>

@@ -10,11 +10,11 @@ const roles = [
     href: "/patients/About",
     priceMonthly: 49,
     description:
-      "Apex Longevity membership holders enjoy access to affordable chiropractic care for their entire family",
+      "Apex Longevity membership holders enjoy access to affordable chiropractic care for their entire immediate family",
     features: [
-      "One plan to cover the entire immediate family",
-      "Affordable care for all family members under the same plan",
-      "Affordable care to supplement rising costs and exhausted insurance benefits",
+      "Access the same level of care from the doctors you trust, at a discounted rate that your immediate family will love!",
+      "Affordable care for all immediate family members under the same plan",
+      "A single plan to supplement rising costs and exhausted insurance benefits",
     ],
   },
   {
@@ -22,7 +22,7 @@ const roles = [
     href: "/providers/About",
     priceMonthly: 79,
     description:
-      "Apex Longevity providers maintain peace of mind with Apex on their side",
+      "Apex Longevity providers maintain peace of mind knowing they can offer legal cash discounts to patients without the risk of violating state and federal laws",
     features: [
       "Legal network-based discounts for patients",
       "Reduced risk of compliance & OIG violations",

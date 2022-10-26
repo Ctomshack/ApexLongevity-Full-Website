@@ -2,9 +2,9 @@ import { ChatBubbleBottomCenterTextIcon, UsersIcon, NoSymbolIcon, ArrowPathIcon 
 
 const features = [
   {
-    name: 'One plan for the entire family',
+    name: 'One plan for your immediate family',
     description:
-      'Primary plan holders and their immediate family members benefit from the cost savings associated with an Apex Longevity membership.',
+      'Primary plan holders and their immediate family members benefit from the cost savings associated with an Apex Longevity membership. Eligible immediate family members include members legal spouse and dependents',
     icon: UsersIcon,
   },
   {
@@ -34,10 +34,10 @@ export default function PatientBenefits() {
         <div className="lg:text-center">
           <h2 className="text-lg font-semibold text-apexB">What is Apex Longevity?</h2>
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            One membership for the entire family
+            One membership for your immediate family
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            A single $49 annual membership provides your entire family with cost savings on chiropractic services. The program can be used by yourself and members of your immediate family. While this program is not a replacement for insurance, it can be used to supplement a major medical health insurance policy.
+          A single $49 annual membership provides you and your immediate family with cost savings on chiropractic services. Eligible immediate family members include members legal spouse and dependents. While this program is not a replacement for insurance, it can be used to supplement a major medical health insurance policy.
           </p>
         </div>
 

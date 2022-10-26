@@ -46,7 +46,7 @@ import Link from 'next/link'
               alt=""
             /> */}
             <Image
-            src='/PatientHeader.jpeg'
+            src='/TMA_5362.jpg'
             alt='Apex Longevity Header Image' 
             layout='fill'
             objectFit='cover'

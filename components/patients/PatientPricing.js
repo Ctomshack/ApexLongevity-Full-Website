@@ -5,7 +5,7 @@ import PatientJoinApexModal from './PatientJoinApexModal'
 const includedFeatures = [
   'Immediate family coverage',
   'Cost savings on chiropractic care',
-  'Customer support',
+  'Discount savings membership card',
   'Automatic annual plan renewal',
 ]
 
@@ -26,7 +26,7 @@ export default function PatientPricing() {
               Simple, no-tricks pricing
             </h2>
             <p className="mt-4 text-xl text-gray-300 drop-shadow-md">
-              {`If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.`}
+              {`If you're not satisfied, contact us within the first 30 days and we'll send you a full refund.`}
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function PatientPricing() {
               <div className="flex-1 bg-white px-6 py-8 lg:p-12">
                 <h3 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">Annual Membership</h3>
                 <p className="mt-6 text-base text-gray-500">
-                  One membership plan for you and your immediate family members. The plan is automatically recurring every year unless otherwise specific by the primary plan holder to Apex support.
+                  One membership plan for you and your immediate family members. The plan is automatically recurring every year unless otherwise specified by the primary plan holder to Apex support.
                 </p>
                 <div className="mt-8">
                   <div className="flex items-center">

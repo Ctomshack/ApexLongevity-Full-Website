@@ -99,7 +99,8 @@ export default function MainContactUs () {
                   />
                   <a href="tel:+18777122739"><span className="ml-3 hover:text-apexG">+1 (877) 712-2739</span></a>
                 </dd>
-                  <p className="mt-1 pl-10">Mon-Fri 8am to 5pm EST</p>
+                  <p className="mt-1 pl-10">Mon-Thur 8am to 5pm EST</p>
+                  <p className="mt-1 pl-10">Fri 8:30am to 12:30pm EST</p>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
