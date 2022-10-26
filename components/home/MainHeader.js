@@ -33,17 +33,17 @@ import Link from 'next/link'
                     href="#GetStarted"
                     className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white duration-300 border border-transparent rounded-md bg-apexB hover:bg-apexG md:py-4 md:px-10 md:text-lg"
                   >
-                    Get started
+                    Learn more
                   </a>
                 </div>
-                <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                {/* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                   <a
                     href="#GetStarted"
                     className="flex items-center justify-center w-full px-8 py-3 text-base font-medium duration-300 bg-white border border-transparent rounded-md text-apexB hover:bg-gray-100 md:py-4 md:px-10 md:text-lg"
                   >
                     Learn more
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
