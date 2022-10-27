@@ -46,7 +46,7 @@ export default function MainContactUs () {
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID_MAIN_FORM,
         form.current,
         process.env.NEXT_PUBLIC_USER_ID
       )
