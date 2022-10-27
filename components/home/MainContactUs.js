@@ -82,7 +82,7 @@ export default function MainContactUs () {
               Submit the contact form or use one of the below options to get in
               touch with an Apex Longevity representative today
             </p>
-            <dl className="mt-8 text-base text-gray-500">
+            <dl className="mt-8 text-base text-gray-500"> 
               <div>
                 <dt className="sr-only">Postal address</dt>
                 <dd>
