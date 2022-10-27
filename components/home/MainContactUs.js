@@ -84,7 +84,7 @@ export default function MainContactUs () {
             </p>
             <dl className="mt-8 text-base text-gray-500"> 
               <div>
-                <dt className="sr-only">Postal address</dt>
+                <dt className="sr-only">Postal address</dt> 
                 <dd>
                   <p>36901 American Way, Suite 7</p>
                   <p>Avon, OH 44011</p>
