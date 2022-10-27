@@ -47,7 +47,7 @@ export default function MainContactUs () {
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,
         process.env.NEXT_PUBLIC_TEMPLATE_ID_MAIN_FORM,
-        form.current,
+        form.current, 
         process.env.NEXT_PUBLIC_USER_ID
       )
       .then(
