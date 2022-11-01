@@ -3,6 +3,7 @@ import SEO from "@bradgarropy/next-seo";
 import Script from 'next/script';
 import { hotjar } from 'react-hotjar';
 import { useEffect } from 'react';
+import { LiveChatWidget } from '@livechat/widget-react';
 
 function MyApp({ Component, pageProps }) {
 
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
   <>
+  <LiveChatWidget license="9239160" group="0" />
   <SEO
         title="Apex Longevity"
         description="Compliant cash discounts for chiropractors and a discount medical program for chirorpactic patients nationwide"
