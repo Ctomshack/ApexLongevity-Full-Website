@@ -19,7 +19,7 @@ const people = [
     name: 'Allison Danielson',
     role: 'Director of Operations',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      '/Allison.png',
     bio: 'Allison is a people person and is always interested in knowing more about an individual’s passions and goals. As our Director of Operations, she also possesses strong attention to detail and is great at bringing people together to discuss how to turn their practice into a well-oiled machine by implementing systems like Apex Longevity. These attributes make her the perfect person to work with prospective and current providers.',
     linkedinUrl: 'https://www.linkedin.com/in/allison-danielson-7149a293/',
     alt: 'Headshot of the Director of Operations'
@@ -28,7 +28,7 @@ const people = [
       name: 'Dr. Chris Tomshack',
       role: 'Founder / CEO',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/Dr.t2.png',
       bio: 'Dr. Tomshack is defined by his relentless desire to discover better ways to both help patients achieve phenomenal health while assisting doctors to achieve their dreams by first creating their ultimate practice. Dr. Tomshack realized there was a huge need for chiropractic offices to legally offer discounted care and thus created Apex Longevity. Dr. Tomshack has degrees in chiropractic and business and has studied business at the graduate level, making him a unicorn among chiropractors. His passion is helping doctors create their dream lifestyle by building successful practices delivering exceptional care.',
 
       linkedinUrl: 'https://www.linkedin.com/in/chris-tomshack-a25607a/',
@@ -38,7 +38,7 @@ const people = [
       name: 'Lisa Tomshack',
       role: 'Executive Vice President & HR',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/Lisa.png',
       bio: `Lisa has been with Apex Longevity since its inception in 2017.  Lisa's positive energy is contagious and she is an integral component that helps make the Apex culture the very best.  She is a CT graduate from Palmer college of Chiropractic and loves to bike, walk, travel, landscape and enjoy precious time with her family and friends.`,
 
       linkedinUrl: 'https://www.linkedin.com/in/lisa-tomshack-69151785/',
@@ -48,7 +48,7 @@ const people = [
       name: 'Kristen Wallace',
       role: 'Corporate Controller',
       imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '/Kristen.jpeg',
       bio: 'Kristen Wallace spearheads the financial strategy at Apex Longevity as a Corporate Controller. With a background in corporate financing and financial reporting systems, Kristen can manage daily accounting activity while setting a course for long-term growth. She has served as a valued accounting and financial advisor at Apex Longevity since 2017.',
 
       linkedinUrl: 'https://www.linkedin.com/in/kristen-wallace-694a1a/',
@@ -94,7 +94,7 @@ const people = [
                           </div>
                           <ul role="list" className="flex space-x-5">
                             <li>
-                              <a href={person.linkedinUrl} className="text-gray-400 hover:text-gray-500">
+                              <a href={person.linkedinUrl} className="text-gray-400 hover:text-apexB duration-200">
                                 <span className="sr-only">LinkedIn</span>
                                 <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                                   <path
