@@ -15,15 +15,6 @@ import Image from "next/image"
   ```
 */
 const people = [
-  {
-    name: 'Allison Danielson',
-    role: 'Director of Operations',
-    imageUrl:
-      '/Allison.png',
-    bio: 'Allison is a people person and is always interested in knowing more about an individual’s passions and goals. As our Director of Operations, she also possesses strong attention to detail and is great at bringing people together to discuss how to turn their practice into a well-oiled machine by implementing systems like Apex Longevity. These attributes make her the perfect person to work with prospective and current providers.',
-    linkedinUrl: 'https://www.linkedin.com/in/allison-danielson-7149a293/',
-    alt: 'Headshot of the Director of Operations'
-  },
     {
       name: 'Dr. Chris Tomshack',
       role: 'Founder / CEO',
@@ -43,6 +34,15 @@ const people = [
 
       linkedinUrl: 'https://www.linkedin.com/in/lisa-tomshack-69151785/',
       alt: 'Headshot of the Executive Vice President & HR'
+    },
+    {
+      name: 'Allison Danielson',
+      role: 'Director of Operations',
+      imageUrl:
+        '/Allison.png',
+      bio: 'Allison is a people person and is always interested in knowing more about an individual’s passions and goals. As our Director of Operations, she also possesses strong attention to detail and is great at bringing people together to discuss how to turn their practice into a well-oiled machine by implementing systems like Apex Longevity. These attributes make her the perfect person to work with prospective and current providers.',
+      linkedinUrl: 'https://www.linkedin.com/in/allison-danielson-7149a293/',
+      alt: 'Headshot of the Director of Operations'
     },
     {
       name: 'Kristen Wallace',
