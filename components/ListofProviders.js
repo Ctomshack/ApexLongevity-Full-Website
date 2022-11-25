@@ -1,25 +1,42 @@
 import { MapPinIcon, PhoneIcon } from '@heroicons/react/20/solid';
-import providers from '../providerList.json';
+import supabase from '../config/supabaseClient'
+// import providers from '../providerList.json';
+import { useState, useEffect } from 'react';
 
-// const people = [
-//   {
-//     name: 'Jane Cooper',
-//     title: 'Regional Paradigm Technician',
-//     role: 'Chiropractic Provider',
-//     email: 'janecooper@example.com',
-//     telephone: '+1-202-555-0170',
-//   },
-//   // More people...
-// ]
 
 export default function ListofProviders(selectedState) {
+  const [fetchError, setFetchError] = useState(null)
+  const [providers, setProviders] = useState(null)
+
+  useEffect(() => {
+    const fetchProviders = async () => {
+      const { data, error } = await supabase
+        .from('Providers')
+        .select()
+
+      if (error) {
+        setFetchError('Unable to fetch Provider data.')
+        setProviders(null)
+        console.log(fetchError)
+      }
+      if (data) {
+        setProviders(data)
+        setFetchError(null)
+      }
+    }
+
+      fetchProviders()
+  }, [])
 
   return (
     <div className='bg-gray-50'>
 
     <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-12">
 
+      {fetchError && (<p>{fetchError}</p>)}
+      {providers && (
     <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        
       {providers.map((provider, Idx) => {
         if (provider.State === selectedState.selectedState) {
           let googleMapSearchParams = provider.Name.replaceAll(' ', '+')
@@ -63,10 +80,11 @@ export default function ListofProviders(selectedState) {
             </div>
           </li>
           )
-        }
+        } 
       }
       )}
     </ul>
+        )}
     </div>
     </div>
   )
