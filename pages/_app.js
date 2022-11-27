@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
   <>
-  <LiveChatWidget license={`${process.env.NEXT_PUBLIC_LIVECHAT}`} group="0" />
+  <LiveChatWidget license={`${process.env.NEXT_PUBLIC_LIVECHAT}`} group="0" visibility='maximized'/>
   <SEO
         title="Apex Longevity"
         description="Compliant cash discounts for chiropractors and a discount medical program for chirorpactic patients nationwide"
