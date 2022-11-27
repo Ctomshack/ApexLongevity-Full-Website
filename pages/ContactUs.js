@@ -22,7 +22,7 @@ const ContactUs = () => {
             Contact Apex Longevity
           </p>
           <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-            Speak to an Apex representative immediately by calling the number listed below.
+            Speak to an Apex representative immediately by click the <span className='text-apexB underline'>blue chat bubble</span> in the bottom-right of the webpage to open a LiveChat request.
           </p>
           <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
             For all other inquiries,  submit the email form and a representative will be in touch.
