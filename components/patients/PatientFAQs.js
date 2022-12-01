@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "Will my membership automatically renew?",
     answer:
-      "YES. Memberships are set to automatically renew every year. If you wish to deactivate automatic renewals, PLEASE CONTACT YOUR PROVIDER OR APEX LONGEVITY SUPPORT.",
+      "Yes. Memberships are set to automatically renew every year. If you wish to deactivate automatic renewals, PLEASE CONTACT YOUR PROVIDER OR APEX LONGEVITY SUPPORT.",
   }
 ]
 
