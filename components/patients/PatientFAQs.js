@@ -7,37 +7,37 @@ const faqs = [
   {
     question: "What is Apex Longevity?",
     answer:
-      "Apex Longevity is a Discount Medical Plan Organization (DMPO), which provides discounts on many of your chiropractic expenses. Your Plan may be used by you and members of your immediate family. While this program is not a replacement for insurance, it may be used to supplement a major medical health insurance policy. Doctors are usually required to charge insurance companies and patients the same fees unless they are under a network contract for a lower fee. Apex Longevity is a contracted network that allows doctors to set and accept discounts on their services for our members. When you join Apex Longevity, you are entitled to similar “in-network” discounts just like the insurance companies.",
+      "Apex Longevity is a discount medical plan organization (DMPO), which is an annual membership plan that provides you and your immediate family members access to a network of Apex Providers across the nation. You and your immediate family members can utilize your Apex membership to receive discounted rates on services rendered by Apex Providers. These discounts differ between Apex Providers and the total amount of cost-savings you may receive are maintained on file within your Apex Provider's office. Apex Longevity is not to be used as a replacement for insurance, but may be a supplement to a major medical health insurance policy. A membership with Apex Longevity provides you and your immediate family access to similar 'in-network' discounts to insurance companies.",
   },
   {
     question: "What is a DMPO (Discount Medical Plan Organization)?",
     answer:
-      "A plan that offers you and your immediate family access to discounts on health care services and may allow cost-savings on services not covered by your health insurance plan. DMPO's are typically regulated by the Department of Insurance in most states. Discount Medical Plans have existed for many years and are often owned and operated by insurance carriers.",
+      "A discount medical plan organization (DMPO) is a plan that provides you and your immediate family access to discounts on services rendered by Apex Providers. Discount medical plan organizations (DMPO) are regulated by the Department of Insurance in most states.",
   },
   {
     question: "Why should I join Apex Longevity?",
     answer:
-      "A plan with Apex Longevity is a fantastic way to reduce your out-of-pocket expenses for health care as health care costs continue to rise. A single $49 annual membership includes everyone in your immediate family and provides the ability to receive needed treatment that may be paid out-of-pocket at a reduced rate. Partially insured and uninsured patients may use their Apex Longevity benefits to complement their existing benefits, specifically for the non-covered services. Apex Longevity is provider network that works in conjunction with a discount medical plan organization (DMPO). You may enroll in Apex Longevity within your provider's office.. While this program is not a replacement for insurance, it may be used to supplement a major medical health insurance policy.",
+      "A plan with Apex Longevity is a fantastic way to reduce your out-of-pocket expenses for chiropractic care. A membership plan with Apex Longevity is $49/year and covers yourself and your immediate family members. The plan provides the opportunity to access discounted rates on out-of-pocket expenses through your Apex Provider that may supplement expenses not typically covered by insurance, or for those who have exhausted their insurance benefits. Although Apex Longevity is not insurance, and should not be used to replace insurance, it can be utilized to supplement your insurance plan through cost-savings on chiropractic expenses.",
   },
   {
     question: "How does a membership with Apex Longevity benefit myself and my immediate family?",
     answer:
-      "A plan with Apex Longevity is a cost-savings program that supplements insurance and provides discounts for out-of-pocket health care costs. The exact amount of discounted rates can be found by speaking with your provider directly. This plan offers savings to plan members on chiropractic services between participating health care providers and the organization offering the discount plan. Apex Longevity is NOT HEALTH INSURANCE AND SHOULD NOT REPLACE HEALTH INSURANCE.",
+      "Apex Longevity membership plans cost only $49/year and cover yourself and your immediate family. A plan with Apex Longevity will provide cost-savings on out-of-pocket chiropractic expenses. Most Apex members recoup the $49 annual fee within a single visit to their Apex Provider.",
   },
   {
     question: "Why are dependents not listed on the membership card?",
     answer:
-      "Apex Longevity is a discount medical plan organization - NOT insurance. Complete information on all dependents covered under the Apex Longevity plan is maintained on file in your provider's office.  Please verify with your provider that they have your dependent information and keep them up-to-date of any changes that need to be made.",
+      "Dependents are typically listed on insurance cards. However, Apex Longevity is not insurance and should not be used as a replacement for insurance. Your dependents are maintained on file within your Apex Provider's office. Please verify with your Apex Provider to ensure personal information for your dependents is on file and correct.",
   },
   {
     question: "How much of a discount will I receive with my Apex Longevity membership?",
     answer:
-      "Most patients recoup the $49 cost of memebrship with Apex Longevity afte their first visit to a participating Apex Longevity provider. Exact discounts cannot be provided as each provider has the authority to select their discounted rates. Your Apex Longevity provider can show you the network discounts that are offered in his or her office.",
+      "Cost-savings differ between Apex Providers. A list of discounted rates may be obtained by speaking with your Apex Provider. Most Apex members recoup the $49 annual fee after a single visit to an Apex Provider's office.",
   },
   {
     question: "Can I join Apex Longevity if I have Medicare or Insurance coverage?",
     answer:
-      "YES, you may join Apex Longevity if you have Medicare or Insurance coverage, but it may only be used for services not covered by Medicare or Insurance.",
+      "Yes. You may join Apex Longevity if you have Medicare or Insurance coverage, but it may only be used for services not covered by Medicare or Insurance.",
   },
   {
     question: "How long is my Apex Longevity membership good for?",
@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "Will my membership automatically renew?",
     answer:
-      "Yes. Memberships are set to automatically renew every year. If you wish to deactivate automatic renewals, PLEASE CONTACT YOUR PROVIDER OR APEX LONGEVITY SUPPORT.",
+      "Yes. Memberships are set to automatically renew every year. If you wish to deactivate automatic renewals, please contact your Apex Provider or speak with an Apex Longevity Representative.",
   }
 ]
 
