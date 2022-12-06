@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "What is Apex Longevity?",
     answer:
-      "Apex Longevity is a discount medical plan organization (DMPO), which is an annual membership plan that provides you and your immediate family members access to a network of Apex Providers across the nation. You and your immediate family members can utilize your Apex membership to receive discounted rates on services rendered by Apex Providers. These discounts differ between Apex Providers and the total amount of cost-savings you may receive are maintained on file within your Apex Provider's office. Apex Longevity is not to be used as a replacement for insurance, but may be a supplement to a major medical health insurance policy. A membership with Apex Longevity provides you and your immediate family access to similar 'in-network' discounts to insurance companies.",
+      "Apex Longevity is a discount medical plan organization (DMPO), which is an annual membership plan that provides you and your immediate family members access to a network of Apex Providers across the nation. You and your immediate family members can utilize your Apex membership to receive discounted rates on services rendered by Apex Providers. These discounts differ between Apex Providers and the total amount of cost-savings you may receive are maintained on file within your Apex Provider's office. Apex Longevity is not to be used as a replacement for insurance, but may be a supplement to a major medical health insurance policy. A membership with Apex Longevity provides you and your immediate family access to similar 'in-network' discounts just like insurance companies.",
   },
   {
     question: "What is a DMPO (Discount Medical Plan Organization)?",
